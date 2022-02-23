@@ -24,48 +24,147 @@
     position: absolute;
     left: 0;
     right: 0;
-   
-    transition: .5s;
+
+    transition: 0.5s;
 }
-.col5:hover::after{
+.col5:hover::after {
     background-color: rgb(47, 35, 218);
     height: 2px;
     width: 100px;
-   
-    
 }
 .m {
-	margin-top: 38px;
+    margin-top: 38px;
 }
-.imgir-tope{
+.imgir-tope {
     position: relative;
 }
 .imgir-tope p {
     color: blue;
     font-size: 25px;
-  }
-  .imgir-tope h1 {
+}
+.imgir-tope h1 {
     margin-bottom: 42px;
-  }
-  .imgir-tope h6{
-
-  }
-  .imgir-tope h6 {
+}
+.imgir-tope h6 {
+}
+.imgir-tope h6 {
     width: 54%;
     margin: auto;
-  }
-  .imgir-tope::before {
+}
+.imgir-tope::before {
     content: "";
     top: 116px;
     height: 0px;
     width: 0px;
     background-color: blue;
     position: absolute;
-    transition: .5s;
+    transition: 0.5s;
     margin-left: -93px;
-  }
-  .imgir-tope:hover:before{
+}
+.imgir-tope:hover:before {
     height: 2px;
     width: 200px;
     background-color: blue;
-  }
+}
+.main-maig img {
+    max-width: 100%;
+    margin-top: 29px;
+}
+.b img {
+    height: auto;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+.b {
+    background: blue;
+    border-radius: 110px;
+    max-width: 178px;
+    position: relative;
+    top: -58px;
+    left: 140px;
+}
+.b p {
+    display: inline-block;
+    color: white;
+    margin-left: 24px;
+}
+/* ses */
+.ses {
+    background-color: black;
+}
+.sesh {
+}
+.sesh img {
+    max-width: 31%;
+}
+.sesh p {
+    color: white;
+    padding: 26px 0px;
+}
+.sesh ul {
+    
+}
+.sesh ul li {
+    display: inline-block;
+    margin: 0 40px 0px 0px;
+}
+.sesh ul li a {
+    color: white;
+}
+.sesh ul li a:hover {
+  color: burlywood;
+}
+
+
+
+.h h3 {
+  color: white;
+  margin-left: 22px;
+}
+.h h5 {
+  color: white;
+  font-size: 15px;
+  margin: 24px;
+    margin-left: 24px;
+  margin-left: 17px;
+}
+.h{
+  position: relative;
+}
+.h::after {
+  content: "";
+  top: 9px;
+  height: 28px;
+  width: 2px;
+  background-color: blue;
+  position: absolute;
+  left: 12px;
+}
+.h ul {
+  margin-left: -19px;
+}
+.h li {
+  list-style: none;
+}
+.h a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: .4s;
+}
+.h a:hover{
+  color: brown;
+ font-size: 22px;
+}
+
+.border{
+  width: 100%;
+  height: 1px;
+  background-color: aliceblue;
+}
+.lastm {
+  text-align: center;
+  color: white;
+  margin-top: 24px;
+}
